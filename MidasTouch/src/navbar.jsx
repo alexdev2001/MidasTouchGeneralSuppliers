@@ -8,7 +8,7 @@ const Navbar = () => {
             <nav className="navbar">
             <div className="navbar-brand">
                 <Link to="/">
-                    <img src="../images/logo.png" alt="Logo" /> {/* Placeholder for the logo */}
+                    <img src="../images/logo.png" alt="Logo" className='logo' /> {/* Placeholder for the logo */}
                 </Link>
             </div>
             <ul className="navbar-nav">

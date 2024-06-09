@@ -19,9 +19,6 @@ const Slideshow = () => {
     return () => clearInterval(slideInterval);
   });
 
-  useEffect(() => {
-    console.log('Current Slide:', currentSlide);
-  });
 
 
   return (

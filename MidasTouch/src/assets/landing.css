@@ -1,0 +1,39 @@
+.content {
+    margin-bottom: 1%; /* Adjust as needed */
+}
+
+.content h2, .content h1 {
+    color: black;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.head {
+    color: black;
+    font-family: monospace;
+    font-size: 35px; /* Ensures font size is consistent */
+    font-weight: bold;
+    display: inline-block; /* Ensures it only takes up as much space as its content */
+    position: relative;
+}
+
+.heading {
+    display: inline-block; /* Makes the div shrink to fit its content */
+    position: relative;
+    margin-bottom: 20px; /* Adjust as needed */
+    text-align: left; /* Aligns the text to the left */
+    left: -25%;
+}
+
+.head::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px; /* Adjust the height of the line */
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust the position of the line */
+    border-bottom: 4px dotted orange;
+}
+

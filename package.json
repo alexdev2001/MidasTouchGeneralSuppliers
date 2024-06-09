@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
     "react-router-dom": "^6.23.1",
     "react-slideshow-image": "^4.3.1"
   }
