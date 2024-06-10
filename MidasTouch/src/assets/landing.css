@@ -11,7 +11,7 @@
 .head {
     color: black;
     font-family: monospace;
-    font-size: 35px; /* Ensures font size is consistent */
+    font-size: 30px; /* Ensures font size is consistent */
     font-weight: bold;
     display: inline-block; /* Ensures it only takes up as much space as its content */
     position: relative;
@@ -22,7 +22,7 @@
     position: relative;
     margin-bottom: 20px; /* Adjust as needed */
     text-align: left; /* Aligns the text to the left */
-    left: -25%;
+    left: 5%;
 }
 
 .head::after {
@@ -37,3 +37,57 @@
     border-bottom: 4px dotted orange;
 }
 
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.spacer {
+    height: 475px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Align items to the center vertically */
+    margin: 20px 0; /* Adjust margin as needed */
+    margin-left: 30px;
+    width: 100%; /* Ensure the container takes the full width */
+}
+
+.card {
+    display: flex; /* Use flex to align icon and text horizontally */
+    align-items: center; /* Center items vertically */
+    width: auto; /* Adjust width to fit content */
+    max-width: 80%; /* Ensure the card doesn't exceed a certain width */
+    border: 2px solid transparent; /* Initial transparent border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    border-color: orange;
+}
+
+.card:hover {
+    border-color: orange; /* Orange border on hover */
+    background-color: rgba(255, 165, 0, 0.1); /* Slightly transparent orange background on hover */
+}
+
+.icon {
+    font-size: 3rem; /* Adjust icon size as needed */
+    margin-right: 10px; /* Space between icon and text */
+    color: orange;
+}
+
+.text {
+    font-size: 1.2rem; /* Adjust text size as needed */
+    font-family: Arial, sans-serif; /* Adjust font as needed */
+    color: black;
+}
+
+.icon-content {
+    font-family: monospace;
+    text-align: left;
+    font-size: 15px;
+}
