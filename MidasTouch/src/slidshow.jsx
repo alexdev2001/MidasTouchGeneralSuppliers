@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './slideshow.css';
+import './assets/slideshow.css';
 
 
 const slides = [
