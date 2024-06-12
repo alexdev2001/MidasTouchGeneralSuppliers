@@ -1,5 +1,5 @@
 .content {
-    margin-bottom: 1%; 
+    margin-bottom: 1%; /* Adjust as needed */
 }
 
 .content h2, .content h1 {
@@ -11,29 +11,27 @@
 .head {
     color: black;
     font-family: monospace;
-    font-size: 30px; 
+    font-size: 30px; /* Ensures font size is consistent */
     font-weight: bold;
-    display: inline-block; 
+    display: inline-block; /* Ensures it only takes up as much space as its content */
     position: relative;
 }
 
 .heading {
-    display: inline-block; 
-    position: relative;
-    margin-bottom: 20px; 
-    text-align: left; 
-    left: 5%;
+    display: inline-block; /* Makes the div shrink to fit its content */
+    margin-bottom: 20px; /* Adjust as needed */
+    text-align: left; /* Aligns the text to the left */
 }
 
 .head::after {
     content: '';
     display: block;
     width: 100%;
-    height: 4px; 
+    height: 4px; /* Adjust the height of the line */
     background-color: orange;
     position: absolute;
     left: 0;
-    bottom: -5px; 
+    bottom: -5px; /* Adjust the position of the line */
     border-bottom: 4px dotted orange;
 }
 
@@ -49,40 +47,40 @@
 
 .container {
     display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
-    margin: 20px 0; 
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Align items to the center vertically */
+    margin: 20px 0; /* Adjust margin as needed */
     margin-left: 30px;
-    width: 100%;
+    width: 100%; /* Ensure the container takes the full width */
 }
 
 .card {
-    display: flex; 
-    align-items: center; 
-    width: auto; 
-    max-width: 80%; 
-    border: 2px solid transparent; 
-    border-radius: 20px; 
+    display: flex; /* Use flex to align icon and text horizontally */
+    align-items: center; /* Center items vertically */
+    width: auto; /* Adjust width to fit content */
+    max-width: 80%; /* Ensure the card doesn't exceed a certain width */
+    border: 2px solid transparent; /* Initial transparent border */
+    border-radius: 20px; /* Rounded corners */
     padding: 20px;
-    text-align: left; 
+    text-align: left; /* Align text to the left */
     transition: border-color 0.3s ease, background-color 0.3s ease;
     border-color: orange;
 }
 
 .card:hover {
-    border-color: orange; 
-    background-color: rgba(255, 165, 0, 0.1); 
+    border-color: orange; /* Orange border on hover */
+    background-color: rgba(255, 165, 0, 0.1); /* Slightly transparent orange background on hover */
 }
 
 .icon {
-    font-size: 3rem; 
-    margin-right: 10px; 
+    font-size: 3rem; /* Adjust icon size as needed */
+    margin-right: 10px; /* Space between icon and text */
     color: orange;
 }
 
 .text {
-    font-size: 1.2rem; 
-    font-family: Arial, sans-serif; 
+    font-size: 1.2rem; /* Adjust text size as needed */
+    font-family: Arial, sans-serif; /* Adjust font as needed */
     color: black;
 }
 
@@ -90,121 +88,5 @@
     font-family: monospace;
     text-align: left;
     font-size: 15px;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    width: 100%;
-    padding: 20px 40px;
-    position: static;
-    box-sizing: border-box;
-    color: white;
-    margin-left: -32px;
-    margin-top: 40px;
-    margin-bottom: -35px;
-}
-
-.foot-logo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    margin-left: 60px;
-}
-
-.foot-image {
-    width: 100px;
-    height: auto;
-    margin-bottom: 10px; 
-}
-
-.foot-logo-text ul {
-    list-style-type: none; 
-    padding: 0;
-    margin: 0;
-}
-
-.foot-logo-text li {
-    font-family: monospace;
-    font-size: 12px;
-    color: white;
-    text-align: left;
-}
-
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 200px;
-    font-family: monospace;
-    font-size: 15px;
-}
-
-.footer-links ul {
-    list-style-type: none; 
-    padding: 0;
-    margin: 0;
-}
-
-.footer-links li {
-    margin: 0.2rem 0;
-    text-align: left;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    text-decoration: underline;
-}
-
-.footer-copyright {
-    text-align: center;
-    margin-top: auto; 
-    padding-top: 10px;
-    border-top: 1px solid #666; 
-    margin-left: 100px;
-    font-family: monospace;
-}
-
-.foot-link-head {
-    font-weight: bold;
-    font-size: 17px;
-    color: orange;
-    text-align: left;
-}
-
-.footer-links2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 200px;
-    font-family: monospace;
-    font-size: 15px;
-    margin-right: 100px;
-}
-
-.footer-links2 ul {
-    list-style-type: none; 
-    padding: 0;
-    margin: 0;
-}
-
-.footer-links2 li {
-    margin: 0.2rem 0;
-    text-align: left;
-}
-
-.footer-links2 a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-links2 a:hover {
-    text-decoration: underline;
 }
 

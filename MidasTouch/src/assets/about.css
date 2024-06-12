@@ -1,0 +1,186 @@
+.content {
+    margin-bottom: 1%; /* Adjust as needed */
+}
+
+.content h2, .content h1 {
+    color: black;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.spacer {
+    height: 500px;
+}
+
+.heading2 {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.head {
+    color: black;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+.head::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-bottom: 4px dotted orange;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.value-text {
+    color:black;
+    margin: -2%;
+    font-family: monospace;
+    text-align: left;
+    font-size: 16px;
+    right: 20%;
+    margin-top: 7px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding: 50px;
+    vertical-align: top;
+    margin: 50px;
+}
+
+.icon2 {
+    font-size: 3rem; /* Adjust icon size as needed */
+    margin-right: 10px; /* Space between icon and text */
+    color: orange;
+    padding: -2px;
+}
+
+.cell-text {
+    color:black;
+    margin: -2%;
+    font-family: monospace;
+    padding: -2px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.cell-text-head {
+    font-weight: bold;
+}
+
+.manage-content {
+    color:black;
+    margin: -2%;
+    font-family: monospace;
+    text-align: left;
+    font-size: 16px;
+    right: 20%;
+    margin-top: 7px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.table2 {
+    display: table;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.row2 {
+    display: table-row;
+    margin-bottom: 20px;
+}
+
+.cell2 {
+    display: table-cell;
+    padding: 5px;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.cell-text-head2 {
+    font-weight: bold;
+    color:black;
+    margin: -2%;
+    font-family: monospace;
+    padding: -2px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.cell-text2 {
+    color:black;
+    margin: -2%;
+    font-family: monospace;
+    padding: -5px;
+    text-align: left;
+    font-size: 13px;
+    display: table-cell;
+    padding: 30px;
+    vertical-align: top;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.cell-boarder {
+    display: table-cell;
+    padding: 50px;
+    vertical-align: top;
+    margin: 50px;
+    width: 35mm; /* Passport photo width */
+    height: 45mm; /* Passport photo height */
+    border: 2px solid orange; /* Solid orange border */
+    border-radius: 20px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+}
+
+.cell-container {
+    display: table-cell;
+    padding: 5px;
+    vertical-align: top;
+    margin: -2px;
+}
+
+.cell-text-under {
+    color: black;
+    font-family: monospace;
+    margin-left: -73%;
+    padding-top: -5px;
+}
+
+.wide {
+    width: 100%;
+    margin-right: -200px;
+}

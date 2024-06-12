@@ -4,10 +4,6 @@ html, body {
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-.navbar {
-    /* Your navbar styles */
-}
-
 .slideshow {
     position: absolute;
     top: 119px; /* Adjust this value based on your navbar height */
@@ -23,20 +19,6 @@ html, body {
     height: 100%;
     background-size: cover;
     transition: transform 1s ease-in-out;
-}
-
-.slide.active {
-    transform: translateX(0);
-    z-index: 1; 
-}
-
-@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
 }
 
 .slide-text {
@@ -57,17 +39,3 @@ html, body {
     z-index: 2; /* Ensure the text is always on top */
 }
 
-.content {
-    padding: 2rem;
-    text-align: center;
-}
-
-.content h2 {
-    font-size: 2rem;
-    margin-top: 2rem;
-}
-
-.content p {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-}
