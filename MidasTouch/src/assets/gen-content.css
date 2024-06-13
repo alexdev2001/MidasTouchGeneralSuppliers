@@ -1,5 +1,5 @@
 .gen-content {
-     color:black;
+    color:black;
     margin: -2%;
     font-family: monospace;
     text-align: left;
@@ -8,5 +8,6 @@
     margin-top: -3px;
     margin-left: 165px;
     margin-right: 30px;
+    font-weight: 400;
 
 }

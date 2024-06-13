@@ -38,6 +38,15 @@ const Footer = () => {
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
+            <div className="footer-links3">
+                <ul>
+                    <div className="foot-link-head">Services</div>
+                    <li><Link to="/home">Stationery</Link></li>
+                    <li><Link to="/about">Office</Link></li>
+                    <li><Link to="/services">Consumables</Link></li>
+                    <li><Link to="/contact">Food packs</Link></li>
+                </ul>
+            </div>
            
         </div>
         </>

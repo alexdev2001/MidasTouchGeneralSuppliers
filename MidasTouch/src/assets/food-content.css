@@ -1,14 +1,12 @@
-.content-inside {
+.food-content {
     color:black;
     margin: -2%;
     font-family: monospace;
     text-align: left;
     font-size: 16px;
     right: 20%;
-    margin-top: 7px;
-    margin-left: 30px;
+    margin-top: -3px;
+    margin-left: 165px;
     margin-right: 30px;
-    margin-bottom: 20px;
     font-weight: 400;
-    
 }

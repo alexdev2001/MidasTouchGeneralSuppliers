@@ -2,6 +2,9 @@ import React from "react";
 import Banner2 from "../banner2";
 import  '../assets/services.css'
 import GenStation from "../genStation";
+import OfficeEquipment from "../ofEquip";
+import Consumables from "../consumables";
+import FoodPacks from "../foodpacks";
 
 
 const Services = () =>  {
@@ -44,6 +47,51 @@ const Services = () =>  {
                 <div className="heading3">
                     <p className="head">Office Equipment</p>
                 </div> 
+                <OfficeEquipment/>
+                <br/>
+                <br/>
+                <div className="table2-container">
+                    <div className="row2">
+                        <div className="cell2"><img className="gen-image1" src="../../images/ornagizer1.jpeg"/></div>
+                        <div className="cell2"><img className="gen-image2" src="../../images/printer-reg.png"/></div>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div className="heading3">
+                    <p className="head">Computer Consumables</p>
+                </div> 
+                <Consumables/>
+                <br/>
+                <br/>
+                <div className="table2-container">
+                    <div className="row2">
+                        <div className="cell2"><img className="gen-image1" src="../../images/toner.jpeg"/></div>
+                        <div className="cell2"><img className="gen-image2" src="../../images/harddrive.webp"/></div>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div className="heading3">
+                    <p className="head">Food related products</p>
+                </div>
+                <FoodPacks/>
+                <br/>
+                <br/>
+                <div className="table2-container">
+                    <div className="row2">
+                        <div className="cell2"><img className="gen-image1" src="../../images/sausage-tray.jpeg"/></div>
+                        <div className="cell2"><img className="gen-image2" src="../../images/container.jpg"/></div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
             </div>
            
         </>
