@@ -51,17 +51,6 @@ const Landing = () => {
                         <div className="icon"> 
                         </div>
                         <div className="text">
-                            <i className="fa-solid fa-briefcase icon"></i>
-                            <p className='icon-content'>We supply a wide range of office furniture for a number of different purposes, 
-                            from increasing employee productivity to spicing up your space.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="container">
-                    <div className="card">
-                        <div className="icon"> 
-                        </div>
-                        <div className="text">
                             <i className="fa-solid fa-plug icon"></i>
                             <p className='icon-content'>We sell computer consumables and accessories such as printer toners, smartphone LCD's</p>
                         </div>

@@ -1,0 +1,130 @@
+.content {
+    margin-bottom: 1%; /* Adjust as needed */
+}
+
+.content h2, .content h1 {
+    color: black;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+
+.spacer2 {
+    height: 500px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 24px; /* Increase the font size */
+}
+
+.styled-table td {
+    width: 300px; /* Increase the width */
+    height: 100px; /* Increase the height */
+    text-align: center;
+    border: 5px solid black;
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
+
+.styled-table tr:first-child td {
+    border-top: none;
+}
+
+.styled-table tr:last-child td {
+    border-bottom: none;
+}
+
+.styled-table tr td:first-child {
+    border-left: none;
+}
+
+.styled-table tr td:last-child {
+    border-right: none;
+}
+
+.icon3 {
+    font-size: 3rem; /* Adjust icon size as needed */
+    margin-right: 10px; /* Space between icon and text */
+    color: orange;
+    padding: -2px;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: flex-start; /* Align items to the left */
+    padding: 20px;
+    margin-left: -140px;
+}
+
+.heading3 {
+    display: inline-block; /* Makes the div shrink to fit its content */
+    margin-bottom: 20px; /* Adjust as needed */
+    margin-left: 140px;
+    text-align: left; /* Aligns the text to the left */
+}
+
+.head {
+    color: black;
+    font-family: monospace;
+    font-size: 30px; /* Ensures font size is consistent */
+    font-weight: bold;
+    display: inline-block; /* Ensures it only takes up as much space as its content */
+    position: relative;
+}
+
+.head::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px; /* Adjust the height of the line */
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust the position of the line */
+    border-bottom: 4px dotted orange;
+}
+
+.table-container2 {
+    display: flex;
+    justify-content: center; /* Center the table horizontally */
+    margin-bottom: 20px; /* Adjust as needed */
+    padding-left: -20px;
+    margin-top: 300px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between; /* Ensure columns are spaced evenly */
+    width: 400px; /* Adjust width as needed */
+}
+
+.cell2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Each cell takes half the width of the row */
+    height: 100px; /* Adjust height as needed *//* Optional: Add border to visualize cells */
+ /* Remove right border for the last cell */
+    padding: 10px; /* Optional: Add padding for better spacing */
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.gen-image1 {
+    height: 190px;
+    width: 190px;
+}
+
+.gen-image2 {
+    height: 190px;
+    width: 190px;
+}
+

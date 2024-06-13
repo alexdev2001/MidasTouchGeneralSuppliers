@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/content.css'
+import './assets/content.css'
 
 const OverContent = () => {
     return(

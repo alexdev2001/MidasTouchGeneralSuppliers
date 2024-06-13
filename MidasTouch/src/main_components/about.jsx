@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../banner";
 import '../assets/about.css';
-import OverContent from "./ovContent";
+import OverContent from "../ovContent";
 import Footer from "./footer";
 
 const About = () => {

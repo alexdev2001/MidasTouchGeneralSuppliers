@@ -1,0 +1,52 @@
+import React from "react";
+import Banner2 from "../banner2";
+import  '../assets/services.css'
+import GenStation from "../genStation";
+
+
+const Services = () =>  {
+    return(
+        <>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+            crossOrigin="anonymous" referrerPolicy="no-referrer" />
+            <Banner2/>
+            <div className="spacer2"/>
+            <br/>
+            <br/>
+            <br/>
+            <div className="table-container">
+                <table className="styled-table">
+                    <tr>
+                        <td><i className="fa-regular fa-pen-to-square icon3"></i></td>
+                        <td><i className="fa-solid fa-print icon3"></i></td>
+                    </tr>
+                     <tr>
+                        <td><i className="fa-solid fa-computer icon3"></i></td>
+                        <td><i className="fa-solid fa-utensils icon3"></i></td>
+                    </tr>
+                 </table>
+            </div>
+            <div className="service-container">
+                <div className="heading3">
+                    <p className="head">General Stationery</p>
+                </div> 
+                <GenStation/>
+                <br/>
+                <br/>
+                <div className="table2-container">
+                    <div className="row2">
+                        <div className="cell2"><img className="gen-image1" src="../../images/stationery.jpeg"/></div>
+                        <div className="cell2"><img className="gen-image2" src="../../images/ream.jpeg"/></div>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div className="heading3">
+                    <p className="head">Office Equipment</p>
+                </div> 
+            </div>
+           
+        </>
+    );
+}
+export default  Services;
