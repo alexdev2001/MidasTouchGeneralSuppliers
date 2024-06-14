@@ -15,14 +15,26 @@ const Navbar = () => {
              <li className="nav-item">
                 <Link to='/' className="nav-link">Home</Link>
              </li>
-            <li className="nav-item">
+            <li className="nav-item dropdown">
                 <Link to="/about" className="nav-link">About</Link>
+                <ul className="dropdown-menu">
+                            <li><Link to="/about#team" className="dropdown-link">Overview</Link></li>
+                            <li><Link to="/about#values" className="dropdown-link">Values</Link></li>
+                            <li><Link to="/about#management" className="dropdown-link">Management</Link></li>
+                            <li><Link to="/about#find" className="dropdown-link">Find us</Link></li>        
+                </ul>
             </li>
-            <li className="nav-item">
+            <li className="nav-item dropdown">
                 <Link to="/services" className="nav-link">Services</Link>
+                <ul className="dropdown-menu">
+                         <li><Link to="/services#stationery" className="dropdown-link">Stationery</Link></li>
+                        <li><Link to="/services#office" className="dropdown-link">Office Equipment</Link></li>
+                        <li><Link to="/services#consumables" className="dropdown-link">Consumables</Link></li>
+                        <li><Link to="/services#food" className="dropdown-link">Food Products</Link></li>
+                </ul>
             </li>
-            <li className="nav-item">
-                <Link to="/contact" className="nav-link">Contact</Link>
+            <li className="nav-item dropdown">
+                <Link to="/contact" className="nav-link">Contact</Link>     
             </li>
             </ul>
             </nav>

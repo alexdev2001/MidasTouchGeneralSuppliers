@@ -19,6 +19,8 @@ const Landing = () => {
                 </div> 
                 <BgContent/>
                 <br/>
+                <br/>
+                <br/>
                 <div className="heading">
                     <p className="head">What we do</p>
                 </div>
@@ -66,6 +68,9 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
+                <br/>
+                <br/>
+                <br/>
                 <div className="heading">
                     <p className="head">Who we've worked with</p>
                 </div> 

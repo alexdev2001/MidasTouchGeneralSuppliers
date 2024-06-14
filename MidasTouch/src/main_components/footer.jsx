@@ -21,18 +21,17 @@ const Footer = () => {
             </div>
             <div className="footer-links">
                 <ul>
-                    <br/>
                     <div className="foot-link-head">About</div>
-                    <li><Link to="/home">Overview</Link></li>
-                    <li><Link to="/about">Core Values</Link></li>
-                    <li><Link to="/services">Management</Link></li>
-                    <li><Link to="/contact">Find us</Link></li>
+                    <li><Link to="/about#overview">Overview</Link></li>
+                    <li><Link to="/about#values">Values</Link></li>
+                    <li><Link to="/about#management">Management</Link></li>
+                    <li><Link to="/about#find">Find us</Link></li>
                 </ul>
             </div>
             <div className="footer-links2">
                 <ul>
                     <div className="foot-link-head">Pages</div>
-                    <li><Link to="/home">Home</Link></li>
+                    <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/services">Services</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
@@ -41,10 +40,10 @@ const Footer = () => {
             <div className="footer-links3">
                 <ul>
                     <div className="foot-link-head">Services</div>
-                    <li><Link to="/home">Stationery</Link></li>
-                    <li><Link to="/about">Office</Link></li>
-                    <li><Link to="/services">Consumables</Link></li>
-                    <li><Link to="/contact">Food packs</Link></li>
+                    <li><Link to="/services#stationery">Stationery</Link></li>
+                    <li><Link to="/services#office">Office</Link></li>
+                    <li><Link to="/services#consumables">Consumables</Link></li>
+                    <li><Link to="/services#food">Food packs</Link></li>
                 </ul>
             </div>
            
