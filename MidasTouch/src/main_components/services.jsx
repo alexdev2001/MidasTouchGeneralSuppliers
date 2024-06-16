@@ -56,6 +56,8 @@ const Services = () =>  {
                             <div className="row2">
                                 <div className="cell2"><img className="gen-image1" src="../../images/stationery.jpeg"/></div>
                                 <div className="cell2"><img className="gen-image2" src="../../images/ream.jpeg"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../../images/hardcover.webp"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../../images/instrument.webp"/></div>
                             </div>
                         </div>
                         <br/>
@@ -75,6 +77,8 @@ const Services = () =>  {
                             <div className="row2">
                                 <div className="cell2"><img className="gen-image1" src="../../images/ornagizer1.jpeg"/></div>
                                 <div className="cell2"><img className="gen-image2" src="../../images/printer-reg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../../images/envelope.jpeg"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../../images/binding.webp"/></div>
                             </div>
                         </div>
                         <br/>
@@ -94,6 +98,8 @@ const Services = () =>  {
                             <div className="row2">
                                 <div className="cell2"><img className="gen-image1" src="../../images/toner.jpeg"/></div>
                                 <div className="cell2"><img className="gen-image2" src="../../images/harddrive.webp"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../../images/ink.jpeg"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../../images/calculator.webp"/></div>
                             </div>
                         </div>
                         <br/>
@@ -113,6 +119,8 @@ const Services = () =>  {
                             <div className="row2">
                                 <div className="cell2"><img className="gen-image1" src="../../images/sausage-tray.jpeg"/></div>
                                 <div className="cell2"><img className="gen-image2" src="../../images/container.jpg"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../../images/utensils.webp"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../../images/lunchbox.png"/></div>
                             </div>
                         </div>
                 </section>

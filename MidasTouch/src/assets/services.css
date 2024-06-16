@@ -104,6 +104,7 @@
     display: flex;
     justify-content: space-between; /* Ensure columns are spaced evenly */
     width: 400px; /* Adjust width as needed */
+    margin: 5px;
 }
 
 .cell2 {
@@ -113,8 +114,8 @@
     width: 50%; /* Each cell takes half the width of the row */
     height: 100px; /* Adjust height as needed *//* Optional: Add border to visualize cells */
  /* Remove right border for the last cell */
-    padding: 10px; /* Optional: Add padding for better spacing */
-    margin-left: 200px;
+    padding: 5px; /* Optional: Add padding for better spacing */
+    margin-left: 150px;
     margin-top: 60px;
 }
 

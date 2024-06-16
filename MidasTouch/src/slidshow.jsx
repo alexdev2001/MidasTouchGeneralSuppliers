@@ -31,7 +31,7 @@ const Slideshow = () => {
             style={{ backgroundImage: `url(${slide.image})` }}
             ></div>
       ))}
-      <div className="slide-text">For all your stationery needs</div>
+      <div className="slide-text">Supplying Success with Every Touch</div>
         </div>
     
   );
