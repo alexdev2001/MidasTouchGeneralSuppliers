@@ -24,40 +24,49 @@ const Landing = () => {
                 <div className="heading">
                     <p className="head">What we do</p>
                 </div>
-                <div className="container">
-                    <div className="card">
-                        <div className="icon">
-                            
-                        </div>
-                        <div className="text">
-                            <i className="fa-solid fa-stapler icon"></i>
-                            <p className='icon-content'>We stock a range of general stationery, 
-                            like writing materials, papers, staplers, organisers...</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="container">
-                    <div className="card">
-                        <div className="icon">
-                            
-                        </div>
-                        <div className="text">
-                            <i className="fa-solid fa-computer icon"></i>
-                            <p className='icon-content'>We supply a Office equipment such as computers, 
-                            printers, photocopiers and various office machines</p>
+                <Link to={"/services#stationery"}>
+                    <div className="container">
+                        <div className="card">
+                            <div className="icon">
+
+                            </div>
+                            <div className="text">
+                                <i className="fa-solid fa-stapler icon"></i>
+                                <p className='icon-content'>We stock a range of general stationery, 
+                                like writing materials, papers, staplers, organisers...</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="container">
-                    <div className="card">
-                        <div className="icon"> 
-                        </div>
-                        <div className="text">
-                            <i className="fa-solid fa-plug icon"></i>
-                            <p className='icon-content'>We sell computer consumables and accessories such as printer toners, smartphone LCD's</p>
+                </Link>
+                
+                <Link to={"/services#office"}>
+                    <div className="container">
+                        <div className="card">
+                            <div className="icon">
+
+                            </div>
+                            <div className="text">
+                                <i className="fa-solid fa-computer icon"></i>
+                                <p className='icon-content'>We supply a Office equipment such as computers, 
+                                printers, photocopiers and various office machines</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </Link>
+               <Link to={"/services#consumables"}>
+                    <div className="container">
+                         <div className="card">
+                             <div className="icon"> 
+                             </div>
+                             <div className="text">
+                                 <i className="fa-solid fa-plug icon"></i>
+                                 <p className='icon-content'>We sell computer consumables and accessories such as printer toners, smartphone LCD's</p>
+                             </div>
+                         </div>
+                     </div>
+               </Link>
+
+                <Link to={"/services#food"}>
                 <div className="container">
                     <div className="card">
                         <div className="icon"> 
@@ -68,6 +77,7 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
                 <br/>
                 <br/>
                 <br/>

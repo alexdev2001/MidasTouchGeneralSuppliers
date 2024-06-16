@@ -58,24 +58,23 @@
     display: flex; /* Use flex to align icon and text horizontally */
     align-items: center; /* Center items vertically */
     width: auto; /* Adjust width to fit content */
-    max-width: 80%; /* Ensure the card doesn't exceed a certain width */
-    border: 2px solid transparent; /* Initial transparent border */
-    border-radius: 20px; /* Rounded corners */
+    max-width: 80%; /* Ensure the card doesn't exceed a certain width */ /* Initial transparent border */
+    border-radius: 13px; /* Rounded corners */
     padding: 20px;
     text-align: left; /* Align text to the left */
     transition: border-color 0.3s ease, background-color 0.3s ease;
-    border-color: orange;
+    background: linear-gradient(145deg, #ff5e00 , #ff9c00);
 }
 
 .card:hover {
-    border-color: orange; /* Orange border on hover */
-    background-color: rgba(255, 165, 0, 0.1); /* Slightly transparent orange background on hover */
+    transform: scale(1.01); /* Slightly increase the size of the card *//* Make the shadow larger and darker */
+    background-color: orange; /* Change background color on hover if desired */ /* Ensure border color matches the background on hover */
 }
 
 .icon {
     font-size: 3rem; /* Adjust icon size as needed */
     margin-right: 10px; /* Space between icon and text */
-    color: orange;
+    color: white;
 }
 
 .text {
@@ -88,5 +87,6 @@
     font-family: monospace;
     text-align: left;
     font-size: 15px;
+    color: white;
 }
 

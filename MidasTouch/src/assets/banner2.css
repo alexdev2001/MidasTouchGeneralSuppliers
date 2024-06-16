@@ -29,8 +29,8 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: orange;
-    font-size: 60px;
+    color: rgba(252, 128, 4, 0.8);
+    font-size: 80px;
     text-align: center;
     padding: 1rem;
     width: calc(100% - 2rem); /* Ensure the text container does not overflow */

@@ -67,7 +67,8 @@
 }
 
 .footer-links a:hover {
-    text-decoration: underline;
+    border-bottom: 3px solid #ff5e00; 
+    color: inherit;
 }
 
 .footer-copyright {
@@ -114,7 +115,8 @@
 }
 
 .footer-links2 a:hover {
-    text-decoration: underline;
+    border-bottom: 3px solid #ff5e00; 
+    color: inherit;
 }
 
 .footer-links3 {
@@ -144,6 +146,7 @@
 }
 
 .footer-links3 a:hover {
-    text-decoration: underline;
+    border-bottom: 3px solid #ff5e00; 
+    color: inherit;
 }
 

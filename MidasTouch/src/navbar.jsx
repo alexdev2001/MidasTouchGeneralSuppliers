@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Link to='/' className="nav-link">Home</Link>
              </li>
             <li className="nav-item dropdown">
-                <Link to="/about" className="nav-link">About</Link>
+                <Link to="/about" className="nav-link2">About</Link>
                 <ul className="dropdown-menu">
                             <li><Link to="/about#team" className="dropdown-link">Overview</Link></li>
                             <li><Link to="/about#values" className="dropdown-link">Values</Link></li>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 </ul>
             </li>
             <li className="nav-item dropdown">
-                <Link to="/services" className="nav-link">Services</Link>
+                <Link to="/services" className="nav-link2">Services</Link>
                 <ul className="dropdown-menu">
                          <li><Link to="/services#stationery" className="dropdown-link">Stationery</Link></li>
                         <li><Link to="/services#office" className="dropdown-link">Office Equipment</Link></li>
