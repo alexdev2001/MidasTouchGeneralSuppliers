@@ -1,0 +1,37 @@
+
+.spacer3 {
+    height: 500px !important;
+}
+
+.head {
+    color: black;
+    font-family: monospace;
+    font-size: 30px; /* Ensures font size is consistent */
+    font-weight: bold;
+    display: inline-block; /* Ensures it only takes up as much space as its content */
+    position: relative;
+}
+
+.heading {
+    display: inline-block; /* Makes the div shrink to fit its content */
+    margin-bottom: 20px; /* Adjust as needed */
+    text-align: left; /* Aligns the text to the left */
+}
+
+.head::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px; /* Adjust the height of the line */
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust the position of the line */
+    border-bottom: 4px dotted orange;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}

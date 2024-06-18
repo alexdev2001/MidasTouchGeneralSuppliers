@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import './assets/banner.css'
+import './assets/banner3.css'
 
 const slides = [
     { id: 1, image: '../images/midas2-bw.jpeg' },
 ];
   
-const Banner = () => {
+const Banner3 = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
   
     useEffect(() => {
@@ -20,19 +20,18 @@ const Banner = () => {
   
     return (
       
-          <div className="slideshow">
+          <div className="slideshow3">
               {slides.map((slide, index) => (
               <div
               key={slide.id}
-              className={`slide ${index === currentSlide ? 'active' : ''}`}
+              className={`slide3 ${index === currentSlide ? 'active' : ''}`}
               style={{ backgroundImage: `url(${slide.image})` }}
               ></div>
         ))}
-        <div className="slide-text">About us</div>
+        <div className="slide-text3">Contact us</div>
           </div>
       
     );
 };
 
-export default Banner;
-  
+export default Banner3;

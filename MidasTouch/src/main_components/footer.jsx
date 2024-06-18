@@ -10,8 +10,8 @@ const Footer = () => {
                 <img src="../../images/logo.png" alt="Logo" className="foot-image" />
                 <div className="foot-logo-text">
                     <ul>
-                        <li>WA: +265999026225</li>
-                        <li>Email: midasgeneralsuppliers@gmail.com</li>
+                        <li>+265999026225</li>
+                        <li>midasgeneralsuppliers@gmail.com</li>
                           <li>Address: P.O. Box 32714, Chichiri Blantyre 3</li>
                     </ul>
                 </div>

@@ -3,9 +3,8 @@ import './assets/slideshow.css';
 
 
 const slides = [
-  { id: 1, image: '../images/slide3.webp' },
+  { id: 1, image: '../images/midas2-reg.jpeg' },
   { id: 2, image: '../images/slide2.jpeg' },
-  { id: 3, image: '../images/slide1.webp'},
 ];
 
 const Slideshow = () => {
