@@ -3,7 +3,7 @@
     height: 500px !important;
 }
 
-.head {
+.head4 {
     color: black;
     font-family: monospace;
     font-size: 30px; /* Ensures font size is consistent */
@@ -12,13 +12,13 @@
     position: relative;
 }
 
-.heading {
+.heading4 {
     display: inline-block; /* Makes the div shrink to fit its content */
     margin-bottom: 20px; /* Adjust as needed */
     text-align: left; /* Aligns the text to the left */
 }
 
-.head::after {
+.head4::after {
     content: '';
     display: block;
     width: 100%;
@@ -34,4 +34,59 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding-right: -20px;
+    margin-right: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    background-color: white;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: monospace;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+.form-group input, .form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5e00;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #e04b00;
+}
+
+#map { height: 180px; }
+
+.leaflet-container {
+    height: 500px;
+    z-index: 0 !important;
 }

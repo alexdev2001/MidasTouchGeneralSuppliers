@@ -5,10 +5,18 @@ import OverContent from "../ovContent";
 import Footer from "./footer";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import { Icon } from "leaflet";
+import 'leaflet/dist/leaflet.css'
 
 const About = () => {
 
     const { hash } = useLocation();
+
+    const customIcon = new Icon({
+        iconUrl: "../../images/icon-pin.png",
+        iconSize: [38, 38]
+    })
 
     useEffect(() => {
         if (hash) {
@@ -106,9 +114,24 @@ const About = () => {
                         <br/>
                         <br/>
                         <br/>
+                        <br/>
                         <div className="heading2">
                             <p className="head">Find us</p>
                         </div> 
+                        <MapContainer 
+                            center={[-15.7867, 30.0082]} 
+                            zoom={20}  
+                            dragging={false}
+                            scrollWheelZoom={false}
+                            doubleClickZoom={false}
+                            boxZoom={false}
+                            keyboard={false}
+                            touchZoom={false}>
+                            <TileLayer
+                            url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                            />
+                            <Marker position={[-15.7867, 30.0082]} icon={customIcon}></Marker>
+                        </MapContainer>
                 </section>
                 
             </div>
