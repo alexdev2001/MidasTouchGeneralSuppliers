@@ -204,3 +204,8 @@
 #find {
     text-align: left;
 }
+
+.about-map-container {
+    border-radius: 20px; /* Adjust the radius as needed */
+    overflow: hidden;
+}

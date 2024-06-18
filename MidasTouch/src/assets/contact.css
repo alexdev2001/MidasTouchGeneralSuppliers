@@ -90,3 +90,8 @@
     height: 500px;
     z-index: 0 !important;
 }
+
+.map-container {
+    border-radius: 20px; /* Adjust the radius as needed */
+    overflow: hidden;
+}

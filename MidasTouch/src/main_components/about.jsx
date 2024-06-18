@@ -80,6 +80,8 @@ const About = () => {
                         and experienced professionals who are committed to delivering excellence and ensuring 
                         the highest standards of customer service and operational efficiency.
                         </div>
+                        <br/>
+                        <br/>
                         <div className="table2">
                             <div className="row2">
                                 <div className="cell-text2">Managing Director: </div>
@@ -89,8 +91,6 @@ const About = () => {
                                     </div>
                                     <div className="cell-text-under">Mr MacDonald Chibwe</div>
                                 </div>
-                            </div>
-                            <div className="row2">
                                 <div className="cell-text2">Operations Director: </div>
                                 <div className=".cell-container">
                                     <div className="cell-boarder">
@@ -98,9 +98,7 @@ const About = () => {
                                     </div>
                                     <div className="cell-text-under">Mrs Grace Chibwe</div>
                                 </div>
-                            </div>
-                            <div className="row2">
-                                <div className="cell-text2">Sales Manager:</div>
+                                <div className="cell-text2">Sales Lead: </div>
                                 <div className=".cell-container">
                                     <div className="cell-boarder">
 
@@ -108,18 +106,18 @@ const About = () => {
                                     <div className="cell-text-under">Mr Gift Tseka</div>
                                 </div>
                             </div>
+                           
                         </div>
                 </section>
                 <section id="find">
-                        <br/>
-                        <br/>
                         <br/>
                         <br/>
                         <div className="heading2">
                             <p className="head">Find us</p>
                         </div> 
                         <MapContainer 
-                            center={[-15.7867, 30.0082]} 
+                            className="about-map-container"
+                            center={[-15.7867, 35.0082]} 
                             zoom={20}  
                             dragging={false}
                             scrollWheelZoom={false}
@@ -130,7 +128,7 @@ const About = () => {
                             <TileLayer
                             url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
                             />
-                            <Marker position={[-15.7867, 30.0082]} icon={customIcon}></Marker>
+                            <Marker position={[-15.7867, 35.0082]} icon={customIcon}></Marker>
                         </MapContainer>
                 </section>
                 

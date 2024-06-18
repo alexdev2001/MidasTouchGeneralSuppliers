@@ -51,6 +51,7 @@ const Contact  =  () => {
                     <p className="head4">Visit us</p>
                 </div> 
                <MapContainer 
+                    className="map-container"
                     center={[-15.7867, 35.0082]} 
                     zoom={20}  
                     dragging={false}
