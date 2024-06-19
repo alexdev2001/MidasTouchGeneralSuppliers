@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "babel-preset-react": "^6.24.1",
+    "firebase": "^10.12.2",
+    "firebase-tools": "^13.11.2",
     "leaflet": "^1.9.4",
     "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.23.1",
