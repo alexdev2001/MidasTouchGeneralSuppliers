@@ -14,15 +14,15 @@ const Landing = () => {
             <div className="landing-container">
                 <Slideshow/>
                 <div className="spacer"></div>
-                <div className="heading">
-                    <p className="head">Who we are</p>
+                <div className="heading1">
+                    <p className="head1">Who we are</p>
                 </div> 
                 <BgContent/>
                 <br/>
                 <br/>
                 <br/>
-                <div className="heading">
-                    <p className="head">What we do</p>
+                <div className="heading1">
+                    <p className="head1">What we do</p>
                 </div>
                 <Link to={"/services#stationery"}>
                     <div className="container">
@@ -81,8 +81,8 @@ const Landing = () => {
                 <br/>
                 <br/>
                 <br/>
-                <div className="heading">
-                    <p className="head">Who we've worked with</p>
+                <div className="heading1">
+                    <p className="head1">Who we've worked with</p>
                 </div> 
             </div>
             <LogoCarousel/>

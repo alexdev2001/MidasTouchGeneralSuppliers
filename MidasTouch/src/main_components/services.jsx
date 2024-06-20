@@ -47,7 +47,7 @@ const Services = () =>  {
                         <br/>
                         <br/>
                         <div className="heading3">
-                            <p className="head">General Stationery</p>
+                            <p className="head3">General Stationery</p>
                         </div> 
                         <GenStation/>
                         <br/>
@@ -68,7 +68,7 @@ const Services = () =>  {
                         <br/>
                         <br/>
                         <div className="heading3">
-                            <p className="head">Office Equipment</p>
+                            <p className="head3">Office Equipment</p>
                         </div> 
                         <OfficeEquipment/>
                         <br/>
@@ -89,7 +89,7 @@ const Services = () =>  {
                         <br/>
                         <br/>
                         <div className="heading3">
-                            <p className="head">Computer Consumables</p>
+                            <p className="head3">Computer Consumables</p>
                         </div> 
                         <Consumables/>
                         <br/>
@@ -110,7 +110,7 @@ const Services = () =>  {
                         <br/>
                         <br/>
                         <div className="heading3">
-                            <p className="head">Food related products</p>
+                            <p className="head3">Food related products</p>
                         </div>
                         <FoodPacks/>
                         <br/>

@@ -5,9 +5,9 @@
 
 .head4 {
     color: black;
-    font-family: monospace;
-    font-size: 30px; /* Ensures font size is consistent */
-    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px; /* Ensures font size is consistent */
+    font-weight:900;
     display: inline-block; /* Ensures it only takes up as much space as its content */
     position: relative;
 }
@@ -54,7 +54,7 @@
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    font-family: monospace;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
     text-align: left;
     font-weight: bold;

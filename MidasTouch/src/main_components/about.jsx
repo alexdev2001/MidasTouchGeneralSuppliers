@@ -36,7 +36,7 @@ const About = () => {
                 <div className="spacer"></div>
                 <section id="overview">
                         <div className="heading2">
-                            <p className="head">Company Overview</p>
+                            <p className="head2">Company Overview</p>
                         </div> 
                 <OverContent/>
                 </section>
@@ -45,25 +45,24 @@ const About = () => {
                         <br/>
                         <br/>
                         <div className="heading2">
-                            <p className="head">Our Values</p>
+                            <p className="head2">Our Values</p>
                         </div> 
                         <div className="value-text">At Midas, we aspire to the following standards</div>
-                        <br/>
                         <div className="table">
                             <div className="row">
                                 <div className="cell"><i className="fa-regular fa-eye icon2"></i></div>
-                                <div className="cell-text"><br/><br/><br/><br/><div className="cell-text-head">Vision:</div>
+                                <div className="cell-text"><br/><br/><br/><div className="cell-text-head">Vision:</div>
                                     To become the most dependable supplier of quality stationery and consumables to private sector, government, schools and individuals in Malawi. 
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="cell"><i className="fa-regular fa-map icon2"></i></div>
-                                <div className="cell-text"><br/><br/><br/><br/><div className="cell-text-head">Mission:</div>
+                                <div className="cell-text"><br/><br/><br/><div className="cell-text-head">Mission:</div>
                                 To make Midas Touch a household name in the stationery segment reputed by supplying high quality office consumables at the fairest price that always translates in expenditure savings.  </div>
                             </div>
                             <div className="row">
                                 <div className="cell"><i className="fa-thumbtack icon2"></i></div>
-                                <div className="cell-text"><br/><br/><br/><br/><div className="cell-text-head">Goals:</div>
+                                <div className="cell-text"><br/><br/><br/><div className="cell-text-head">Goals:</div>
                                 To maximise product range expansion and improve the brand of our business within the next 5 years</div>
                             </div>
                         </div>
@@ -73,7 +72,7 @@ const About = () => {
                         <br/>
                         <br/>
                         <div className="heading2">
-                            <p className="head">Management</p>
+                            <p className="head2">Management</p>
                         </div> 
                         <div className="manage-content">
                         Our team at is composed of dedicated 
@@ -113,7 +112,7 @@ const About = () => {
                         <br/>
                         <br/>
                         <div className="heading2">
-                            <p className="head">Find us</p>
+                            <p className="head2">Find us</p>
                         </div> 
                         <MapContainer 
                             className="about-map-container"

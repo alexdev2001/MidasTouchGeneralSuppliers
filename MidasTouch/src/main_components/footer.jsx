@@ -12,7 +12,7 @@ const Footer = () => {
                     <ul>
                         <li>+265999026225</li>
                         <li>midasgeneralsuppliers@gmail.com</li>
-                          <li>Address: P.O. Box 32714, Chichiri Blantyre 3</li>
+                          <li> P.O. Box 32714, Chichiri, Blantyre </li>
                     </ul>
                 </div>
             </div>
