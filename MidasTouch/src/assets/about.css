@@ -43,6 +43,10 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: #F8F0E3;
+    margin-left: -31px;
+    margin-bottom: -60px;
+    margin-right: -31px;
 }
 
 .value-text {
@@ -209,4 +213,8 @@
 .about-map-container {
     border-radius: 20px; /* Adjust the radius as needed */
     overflow: hidden;
+}
+
+.table2-container {
+    margin-bottom: 50px;
 }

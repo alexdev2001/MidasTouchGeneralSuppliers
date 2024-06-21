@@ -11,8 +11,8 @@ const Landing = () => {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
             integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
             crossorigin="anonymous" referrerPolicy="no-referrer" />
+            <Slideshow/>
             <div className="landing-container">
-                <Slideshow/>
                 <div className="spacer"></div>
                 <div className="heading1">
                     <p className="head1">Who we are</p>
@@ -84,8 +84,9 @@ const Landing = () => {
                 <div className="heading1">
                     <p className="head1">Who we've worked with</p>
                 </div> 
+                <LogoCarousel/>
             </div>
-            <LogoCarousel/>
+            
             
         </>
        
