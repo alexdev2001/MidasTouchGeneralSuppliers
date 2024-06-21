@@ -86,7 +86,7 @@ const About = () => {
                             <div className="row2">
                                 <div className="cell-text2">Managing Director: </div>
                                 <div className=".cell-container">
-                                    <div className="cell-boarder">
+                                    <div className="cell-boarder1">
 
                                     </div>
                                     <div className="cell-text-under">Mr MacDonald Chibwe</div>

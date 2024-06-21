@@ -1,6 +1,7 @@
 import React from "react"; 
 import { Link } from "react-router-dom"; 
 import '../assets/footer.css'
+import ScrollToTop from "../../../scrollTop";
 
 const Footer = () => {
     return (
@@ -20,6 +21,7 @@ const Footer = () => {
                 &copy; 2024 ImaniSystems.
             </div>
             <div className="footer-links">
+                <ScrollToTop/>
                 <ul>
                     <div className="foot-link-head">About</div>
                     <li><Link to="/about#overview">Overview</Link></li>

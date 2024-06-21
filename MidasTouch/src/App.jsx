@@ -7,6 +7,7 @@ import About from './main_components/about'
 import Footer from './main_components/footer'
 import Services from './main_components/services'
 import Contact from './main_components/contact'
+import ScrollToTop from '../../scrollTop'
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
 
   return (
     <>
-      <Router>
+     <Router>
+      <ScrollToTop/>
       <Navbar/>
       
         <div>
