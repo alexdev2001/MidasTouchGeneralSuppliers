@@ -171,12 +171,70 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -20px;
+    margin-left: -40px;
     background-image: url('../../images/macdonald_chibwe.jpg');
     background-size: contain;
     background-position: 57% center;
     padding-left: 9px;
 }
+
+.cell-boarder2 {
+    display: table-cell;
+    padding: 50px;
+    vertical-align: top;
+    margin: 50px;
+    width: 30mm; /* Passport photo width */
+    height: 45mm; /* Passport photo height */
+    border: 2px solid orange; /* Solid orange border */
+    border-radius: 20px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+    background-image: url('../../images/grace_chibwe1.jpg');
+    background-size: contain;
+    background-position: 57% center;
+    padding-left: 9px;
+}
+
+.cell-boarder3 {
+    display: table-cell;
+    padding: 50px;
+    vertical-align: top;
+    margin: 50px;
+    width: 28mm; /* Passport photo width */
+    height: 45mm; /* Passport photo height */
+    border: 2px solid orange; /* Solid orange border */
+    border-radius: 20px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+    background-image: url('../../images/gift_tseka1.jpg');
+    background-size: contain;
+    background-position: 57% center;
+    padding-left: 9px;
+}
+
+.cell-boarder4 {
+    display: table-cell;
+    padding: 50px;
+    vertical-align: top;
+    margin: 50px;
+    width: 25mm; /* Passport photo width */
+    height: 45mm; /* Passport photo height */
+    border: 2px solid orange; /* Solid orange border */
+    border-radius: 20px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+    background-image: url('../../images/florence_phiri1.jpg');
+    background-size: contain;
+    background-position: 57% center;
+    padding-left: 9px;
+}
+
 
 .cell-boarder {
     display: table-cell;
@@ -237,4 +295,8 @@
 
 .table2-container {
     margin-bottom: 50px;
+}
+
+.table-space {
+    margin-right: 50px;
 }

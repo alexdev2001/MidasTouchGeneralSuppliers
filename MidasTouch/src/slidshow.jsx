@@ -4,7 +4,9 @@ import './assets/slideshow.css';
 
 const slides = [
   { id: 1, image: '../images/midas2-reg.jpeg' },
-  { id: 2, image: '../images/slide2.jpeg' },
+  { id: 2, image: '../images/background_1.jpg' },
+  { id: 3, image: '../images/background_2.jpg' },
+  { id: 4, image: '../images/background_3.jpg' },
 ];
 
 const Slideshow = () => {

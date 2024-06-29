@@ -91,19 +91,27 @@ const About = () => {
                                     </div>
                                     <div className="cell-text-under">Mr MacDonald Chibwe</div>
                                 </div>
+                                <div className="table-space"></div>
                                 <div className="cell-text2">Operations Director: </div>
                                 <div className=".cell-container">
-                                    <div className="cell-boarder">
+                                    <div className="cell-boarder2">
 
                                     </div>
                                     <div className="cell-text-under">Mrs Grace Chibwe</div>
                                 </div>
                                 <div className="cell-text2">Sales Lead: </div>
                                 <div className=".cell-container">
-                                    <div className="cell-boarder">
+                                    <div className="cell-boarder3">
 
                                     </div>
                                     <div className="cell-text-under">Mr Gift Tseka</div>
+                                </div>
+                                <div className="cell-text2">Store assistant: </div>
+                                <div className=".cell-container">
+                                    <div className="cell-boarder4">
+
+                                    </div>
+                                    <div className="cell-text-under">Mrs Florence Phiri</div>
                                 </div>
                             </div>
                            
