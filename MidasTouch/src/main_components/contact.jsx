@@ -73,7 +73,7 @@ const Contact  =  () => {
                         </div>
                         <div className="form-group">
                             <label htmlFor="message">Message</label>
-                            <textarea id="message" name="Message" rows="5" value={form.Message} onChange={handleChange} required></textarea>
+                            <textarea className="message" id="message" name="Message" rows="5" value={form.Message} onChange={handleChange} required></textarea>
                         </div>
                         <div className="form-group">
                             <button type="submit">Submit</button>

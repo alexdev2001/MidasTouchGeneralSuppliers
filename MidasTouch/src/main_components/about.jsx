@@ -99,6 +99,7 @@ const About = () => {
                                     </div>
                                     <div className="cell-text-under">Mrs Grace Chibwe</div>
                                 </div>
+                                <div className="table-space"></div>
                                 <div className="cell-text2">Sales Lead: </div>
                                 <div className=".cell-container">
                                     <div className="cell-boarder3">
@@ -106,6 +107,7 @@ const About = () => {
                                     </div>
                                     <div className="cell-text-under">Mr Gift Tseka</div>
                                 </div>
+                                <div className="table-space"></div>
                                 <div className="cell-text2">Store assistant: </div>
                                 <div className=".cell-container">
                                     <div className="cell-boarder4">
@@ -123,6 +125,10 @@ const About = () => {
                         <div className="heading2">
                             <p className="head2">Find us</p>
                         </div> 
+                        <div className="manage-content">
+                        Visit our store located in blantyre along St. Andrews Street, the right turn after the filling station along Haile Selassie road.
+                        To the right along St. Andrews Street, we are in the Sattar & sons building in shop number 5. 
+                        </div>
                         <MapContainer 
                             className="about-map-container"
                             center={[-15.7867, 35.0082]} 
