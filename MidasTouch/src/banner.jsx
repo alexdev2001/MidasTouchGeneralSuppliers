@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import './assets/banner.css'
 
 const slides = [
-    { id: 1, image: '../images/about_us_banner3.jpg' },
+    { id: 1, image: '../src/assets/images/about_us_banner3.jpg' },
 ];
   
 const Banner = () => {

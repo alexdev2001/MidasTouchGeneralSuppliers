@@ -10,7 +10,7 @@ const Navbar = () => {
             <nav className="navbar z-30">
                 <div className="navbar-brand">
                     <Link to="/">
-                        <img src="../dist/images/logo.png" alt="Logo" className='logo' />
+                        <img src="../src/assets/images/logo.png" alt="Logo" className='logo' />
                     </Link>
                 </div>
                 <ul className="navbar-nav">

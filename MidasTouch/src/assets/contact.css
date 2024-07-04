@@ -35,11 +35,11 @@
     flex-direction: column;
     padding: 20px;
     background-color: #F8F0E3;
-    margin-left: -57px;
+    margin-left: -40px;
     margin-bottom: -60px;
     margin-right: -57px;
-    padding-left: -90px;
-    padding-right: -90px;
+    padding-left: -10px;
+    padding-right: -10px;
 }
 
 .form-container {
@@ -100,6 +100,7 @@
 .map-container {
     border-radius: 20px; /* Adjust the radius as needed */
     overflow: hidden;
+    width: 93%;
 }
 
 .message {

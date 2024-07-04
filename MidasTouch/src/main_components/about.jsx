@@ -14,7 +14,7 @@ const About = () => {
     const { hash } = useLocation();
 
     const customIcon = new Icon({
-        iconUrl: "../../images/icon-pin.png",
+        iconUrl: "../src/assets/images/icon-pin.png",
         iconSize: [38, 38]
     })
 

@@ -55,10 +55,10 @@ const Services = () =>  {
                         <br/>
                         <div className="table2-container">
                             <div className="row2">
-                                <div className="cell2"><img className="gen-image1" src="../../images/stationery-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/ream-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/hardcover-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/instrument-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image1" src="../src/assets/images/stationery-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/ream-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/hardcover-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/instrument-nbg.png"/></div>
                             </div>
                         </div>
                         <br/>
@@ -76,10 +76,10 @@ const Services = () =>  {
                         <br/>
                         <div className="table2-container">
                             <div className="row2">
-                                <div className="cell2"><img className="gen-image1" src="../../images/ornagizer-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/printer-reg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/envelope-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/binding-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image1" src="../src/assets/images/ornagizer-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/printer-reg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/envelope-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/binding-nbg.png"/></div>
                             </div>
                         </div>
                         <br/>
@@ -92,15 +92,14 @@ const Services = () =>  {
                         <div className="heading3">
                             <p className="head3">Computer Consumables</p>
                         </div> 
+                        <br/>
                         <Consumables/>
-                        <br/>
-                        <br/>
                         <div className="table2-container">
                             <div className="row2">
-                                <div className="cell2"><img className="gen-image1" src="../../images/toner-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/harddrive-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/ink-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/calculator-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image1" src="../src/assets/images/toner-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/harddrive-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/ink-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/calculator-nbg.png"/></div>
                             </div>
                         </div>
                         <br/>
@@ -118,10 +117,10 @@ const Services = () =>  {
                         <br/>
                         <div className="table2-container">
                             <div className="row2">
-                                <div className="cell2"><img className="gen-image1" src="../../images/sausage-tray-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/container-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/utensils-nbg.png"/></div>
-                                <div className="cell2"><img className="gen-image2" src="../../images/lunchbox-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image1" src="../src/assets/images/sausage-tray-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/container-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/utensils-nbg.png"/></div>
+                                <div className="cell2"><img className="gen-image2" src="../src/assets/images/lunchbox-nbg.png"/></div>
                             </div>
                         </div>
                 </section>

@@ -44,7 +44,7 @@
     flex-direction: column;
     padding: 20px;
     background-color: #F8F0E3;
-    margin-left: -31px;
+    margin-left: -45px;
     margin-bottom: -60px;
     margin-right: -31px;
 }
@@ -106,10 +106,10 @@
     margin: -2%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: left;
-    font-size: 19px;
+    font-size: 18px;
     right: 20%;
     margin-top: 7px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 30px;
     margin-bottom: 20px;
     font-weight: 400;
@@ -172,7 +172,7 @@
     justify-content: center;
     align-items: center;
     margin-left: -40px;
-    background-image: url('../../images/macdonald_chibwe.jpg');
+    background-image: url('../src/assets/images/macdonald_chibwe.jpg');
     background-size: contain;
     background-position: 57% center;
     padding-left: 9px;
@@ -191,7 +191,7 @@
     justify-content: center;
     align-items: center;
     margin-left: -40px;
-    background-image: url('../../images/grace_chibwe1.jpg');
+    background-image: url('../src/assets/images/grace_chibwe1.jpg');
     background-size: contain;
     background-position: 57% center;
     padding-left: 9px;
@@ -210,7 +210,7 @@
     justify-content: center;
     align-items: center;
     margin-left: -40px;
-    background-image: url('../../images/gift_tseka1.jpg');
+    background-image: url('../src/assets/images/gift_tseka1.jpg');
     background-size: contain;
     background-position: 57% center;
     padding-left: 9px;
@@ -229,7 +229,7 @@
     justify-content: center;
     align-items: center;
     margin-left: -40px;
-    background-image: url('../../images/florence_phiri1.jpg');
+    background-image: url('../src/assets/images/florence_phiri1.jpg');
     background-size: contain;
     background-position: 57% center;
     padding-left: 9px;
@@ -291,6 +291,7 @@
 .about-map-container {
     border-radius: 20px; /* Adjust the radius as needed */
     overflow: hidden;
+    width: 95%;
 }
 
 .table2-container {

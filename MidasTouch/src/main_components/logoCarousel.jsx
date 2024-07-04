@@ -5,13 +5,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const logos = [
-    { bw: '../../images/shoprite_bw.webp', color: '../../images/shoprite_reg.webp', link: 'https://www.shoprite.mw/'},
-    { bw: '../../images/mdf_bw.png', color: '../../images/mdf_reg.png', link: 'https://www.malawi.gov.mw/'},
-    { bw: '../../images/cent_bw.png', color: '../../images/cent_reg.png', link: 'https://www.centenarybank.co.mw/'},
-    { bw: '../../images/escom1-bw.png', color: '../../images/escom1-reg.png', link: 'https://www.escom.mw/'},
-    { bw: '../../images/gaia-bw.png', color: '../../images/gaia-reg.png', link: 'https://www.gaiaglobalhealth.org/'},
-    { bw: '../../images/hungerproject-bw.png', color: '../../images/hungerproject-reg.png', link: 'https://thp.org/'},
-    { bw: '../../images/mec-bw.png', color: '../../images/mec-reg.png', link: 'https://mec.org.mw/'}
+    { bw: '../src/assets/images/shoprite_bw.webp', color: '../src/assets/images/shoprite_reg.webp', link: 'https://www.shoprite.mw/'},
+    { bw: '../src/assets/images/mdf_bw.png', color: '../src/assets/images/mdf_reg.png', link: 'https://www.malawi.gov.mw/'},
+    { bw: '../src/assets/images/cent_bw.png', color: '../src/assets/images/cent_reg.png', link: 'https://www.centenarybank.co.mw/'},
+    { bw: '../src/assets/images/escom1-bw.png', color: '../src/assets/images/escom1-reg.png', link: 'https://www.escom.mw/'},
+    { bw: '../src/assets/images/gaia-bw.png', color: '../src/assets/images/gaia-reg.png', link: 'https://www.gaiaglobalhealth.org/'},
+    { bw: '../src/assets/images/hungerproject-bw.png', color: '../src/assets/images/hungerproject-reg.png', link: 'https://thp.org/'},
+    { bw: '../src/assets/images/mec-bw.png', color: '../src/assets/images/mec-reg.png', link: 'https://mec.org.mw/'}
 
 ];
 

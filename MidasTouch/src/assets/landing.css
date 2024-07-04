@@ -40,7 +40,8 @@
     flex-direction: column;
     padding: 20px;
     background-color: #F8F0E3;
-    margin-left: -31px;
+    padding-left: -20px;
+    margin-left: -40px;
     margin-bottom: -60px;
 }
 
