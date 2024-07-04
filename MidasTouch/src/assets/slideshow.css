@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.navbar {
+    /* Your navbar styles */
+}
+
+.slideshow {
+    position: absolute;
+    top: 119px; /* Adjust this value based on your navbar height */
+    left: 0;
+    width: 100%;
+    height: 50vh; /* Half of the viewport height */
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: transform 1s ease-in-out;
+}
+
+.slide.active {
+    transform: translateX(0);
+    z-index: 1; 
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    size: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(252, 128, 4, 0.8);
+    font-size: 60px;
+    text-align: center;
+    padding: 1rem;
+    width: calc(100% - 2rem); /* Ensure the text container does not overflow */
+    max-width: 90%; /* Optional: Add max-width for larger screens */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    z-index: 2; /* Ensure the text is always on top */
+}
+
+.content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
