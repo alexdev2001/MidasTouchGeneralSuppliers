@@ -2,10 +2,19 @@ import Slideshow from "../slidshow";
 import '../assets/landing.css'
 import BgContent from "./bgContent";
 import LogoCarousel from "./logoCarousel";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Footer from "./footer";
+import { Navigate } from "react-router-dom";
+
+
 
 const Landing = () => {
+
+    const navigate = useNavigate();
+
+    const gotToOfficeEquip = () => {
+        navigate('/services#office');
+    }
     
     return(
         <>

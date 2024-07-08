@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './assets/slideshow.css';
+import slide1 from '../src/assets/images/midas2-reg.jpeg';
+import slide2 from '../src/assets/images/background_1.jpg';
+import slide3 from '../src/assets/images/background_2.jpg';
+import slide4 from '../src/assets/images/background_3.jpg';
 
 
 const slides = [
-  { id: 1, image: '../src/assets/images/midas2-reg.jpeg' },
-  { id: 2, image: '../src/assets/images/background_1.jpg' },
-  { id: 3, image: '../src/assets/images/background_2.jpg' },
-  { id: 4, image: '../src/assets/images/background_3.jpg' },
+  { id: 1, image: slide1 },
+  { id: 2, image: slide2 },
+  { id: 3, image: slide3 },
+  { id: 4, image: slide4 },
 ];
 
 const Slideshow = () => {

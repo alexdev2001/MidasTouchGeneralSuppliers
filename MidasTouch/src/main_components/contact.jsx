@@ -85,21 +85,12 @@ const Contact  =  () => {
                 <div className="heading4">
                     <p className="head4">Visit us</p>
                 </div> 
-               <MapContainer 
-                    className="map-container"
-                    center={[-15.7867, 35.0082]} 
-                    zoom={20}  
-                    dragging={false}
-                    scrollWheelZoom={false}
-                    doubleClickZoom={false}
-                    boxZoom={false}
-                    keyboard={false}
-                    touchZoom={false}>
-                    <TileLayer
-                        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-                    />
-                    <Marker position={[-15.7867, 35.0082]} icon={customIcon}></Marker>
-               </MapContainer>
+                <div className="visit-content">
+                    Visit our store located in blantyre along St. Andrews Street, the
+                    right turn after the filling station along Haile Selassie road. To
+                    the right along St. Andrews Street, <br/> we are in the Sattar & sons
+                    building in shop number 5.
+                </div>
             </div>
        </>
        

@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom"; 
 import '../assets/footer.css'
 import ScrollToTop from "../../../scrollTop";
+import logoFooter from '../assets/images/logo.png';
 
 const Footer = () => {
     return (
         <>
              <div className="footer">
             <div className="foot-logo">
-                <img src="../src/assets/images/logo.png" alt="Logo" className="foot-image" />
+                <img src={logoFooter} alt="Logo" className="foot-image" />
                 <div className="foot-logo-text">
                     <ul>
                         <li>+265999026225</li>

@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import './assets/banner.css'
+import about from '../src/assets/images/about_us_banner2.jpg'
 
 const slides = [
-    { id: 1, image: '../src/assets/images/about_us_banner3.jpg' },
+    { id: 1, image: about },
 ];
   
 const Banner = () => {

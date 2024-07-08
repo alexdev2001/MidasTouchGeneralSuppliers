@@ -6,15 +6,13 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'firebase/app',
-        'firebase/firestore'
+        
       ]
     }
   },
   optimizeDeps: {
     include: [
-      'firebase/app',
-      'firebase/firestore'
+      
     ]
   }
 });
